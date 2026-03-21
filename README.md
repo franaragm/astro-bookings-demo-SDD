@@ -20,6 +20,7 @@ AstroBookings is a backend API for managing rockets, launches, customers, and se
 ### Launch Management
 - Create, read, update, and delete launches.
 - Validate future dates, positive price, and capacity constraints.
+- Enforce lifecycle status transitions: scheduled -> active/cancelled, active -> completed/cancelled.
 - Return launch responses with `rocketName`, `totalSeats`, `bookedSeats`, and `availableSeats`.
 
 ### Customer Management
@@ -37,7 +38,6 @@ AstroBookings is a backend API for managing rockets, launches, customers, and se
 
 - Booking cancellation and seat release.
 - Mock payment processing for bookings.
-- Launch lifecycle transition guards.
 - Authentication and persistent storage remain out of scope for the current demo phase.
 
 ## API Surface

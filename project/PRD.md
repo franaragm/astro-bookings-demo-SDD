@@ -57,8 +57,8 @@ The system should support mock payment processing for existing bookings, updatin
 - **Status**: NotStarted
 
 ### FR8: Launch Lifecycle Guards
-The system should enforce valid launch status transitions between scheduled, active, completed, and cancelled, rejecting invalid lifecycle changes instead of accepting arbitrary status updates.
-- **Status**: NotStarted
+The system enforces valid launch status transitions between scheduled, active, completed, and cancelled, rejecting invalid lifecycle changes.
+- **Status**: Implemented
 
 ## Technical Requirements
 

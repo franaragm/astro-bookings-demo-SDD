@@ -1,6 +1,6 @@
 # Launch Lifecycle Guards Specification
 - **Type**: chore
-- **Status**: Draft
+- **Status**: Released
 
 ## Problem Description
 
@@ -47,4 +47,4 @@ Launches already carry a lifecycle status, but the system currently accepts dire
 
 ## PRD Note
 
-FR6 wording in [project/PRD.md](project/PRD.md) should reflect that formal lifecycle transition guards are backlog hardening work and are not fully implemented current behavior yet.
+FR8 in [project/PRD.md](project/PRD.md) should be kept aligned as implemented lifecycle hardening.
